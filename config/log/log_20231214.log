@@ -1,0 +1,196 @@
+[2023-12-14 00:04:23.349 +00:00] [INF] [107] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Download missing subtitles"
+[2023-12-14 00:04:23.349 +00:00] [INF] [107] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "SubtitleScheduledTask"
+[2023-12-14 00:04:23.349 +00:00] [INF] [108] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Download missing subtitles"
+[2023-12-14 00:04:23.357 +00:00] [INF] [108] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2023-12-14 00:04:23.364 +00:00] [INF] [117] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Cache Directory"
+[2023-12-14 00:04:23.364 +00:00] [INF] [117] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteCacheFileTask"
+[2023-12-14 00:04:23.364 +00:00] [INF] [107] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Log Directory"
+[2023-12-14 00:04:23.364 +00:00] [INF] [107] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteLogFileTask"
+[2023-12-14 00:04:23.364 +00:00] [INF] [117] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Cache Directory"
+[2023-12-14 00:04:23.364 +00:00] [INF] [110] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Log Directory"
+[2023-12-14 00:04:23.364 +00:00] [INF] [111] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Transcode Directory"
+[2023-12-14 00:04:23.365 +00:00] [INF] [111] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteTranscodeFileTask"
+[2023-12-14 00:04:23.365 +00:00] [INF] [111] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Transcode Directory"
+[2023-12-14 00:04:23.368 +00:00] [INF] [108] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-14 00:04:23.392 +00:00] [INF] [107] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Optimize database"
+[2023-12-14 00:04:23.392 +00:00] [INF] [108] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Scan Media Library"
+[2023-12-14 00:04:23.392 +00:00] [INF] [107] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "OptimizeDatabaseTask"
+[2023-12-14 00:04:23.392 +00:00] [INF] [112] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh People"
+[2023-12-14 00:04:23.392 +00:00] [INF] [108] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2023-12-14 00:04:23.392 +00:00] [INF] [112] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PeopleValidationTask"
+[2023-12-14 00:04:23.392 +00:00] [INF] [107] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Optimize database"
+[2023-12-14 00:04:23.392 +00:00] [INF] [108] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2023-12-14 00:04:23.392 +00:00] [INF] [112] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh People"
+[2023-12-14 00:04:23.393 +00:00] [INF] [107] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2023-12-14 00:04:23.394 +00:00] [INF] [110] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2023-12-14 00:04:23.394 +00:00] [INF] [108] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/pictures"
+[2023-12-14 00:04:23.395 +00:00] [INF] [108] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/books"
+[2023-12-14 00:04:23.395 +00:00] [INF] [108] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/music"
+[2023-12-14 00:04:23.395 +00:00] [INF] [108] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/movies"
+[2023-12-14 00:04:23.396 +00:00] [INF] [108] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2023-12-14 00:04:23.398 +00:00] [INF] [111] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2023-12-14 00:04:23.408 +00:00] [INF] [110] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-14 00:04:23.428 +00:00] [INF] [111] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-14 00:04:23.428 +00:00] [INF] [110] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh Guide"
+[2023-12-14 00:04:23.438 +00:00] [INF] [110] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshGuideScheduledTask"
+[2023-12-14 00:04:23.438 +00:00] [INF] [111] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "TasksRefreshChannels"
+[2023-12-14 00:04:23.438 +00:00] [INF] [111] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshChannelsScheduledTask"
+[2023-12-14 00:04:23.438 +00:00] [INF] [111] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "TasksRefreshChannels"
+[2023-12-14 00:04:23.438 +00:00] [INF] [110] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh Guide"
+[2023-12-14 00:04:23.444 +00:00] [INF] [111] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2023-12-14 00:04:23.462 +00:00] [INF] [111] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-14 00:04:23.540 +00:00] [INF] [107] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: jellyfin.db optimized successfully!
+[2023-12-14 00:04:23.540 +00:00] [INF] [107] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2023-12-14 00:04:23.558 +00:00] [INF] [107] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-14 00:04:23.747 +00:00] [INF] [117] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2023-12-14 00:04:23.762 +00:00] [INF] [117] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-14 00:04:24.183 +00:00] [INF] [107] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/42a5eb4347004b19908953d2121d31ee.png"
+[2023-12-14 00:04:24.190 +00:00] [INF] [111] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/e98f6f7278c64ce5a6763a322e7759e5.png"
+[2023-12-14 00:04:24.759 +00:00] [INF] [111] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/e98f6f7278c64ce5a6763a322e7759e5.png"
+[2023-12-14 00:04:25.013 +00:00] [INF] [112] Emby.Server.Implementations.Library.LibraryManager: People validation complete
+[2023-12-14 00:04:25.014 +00:00] [INF] [112] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh People" Completed after 0 minute(s) and 1 seconds
+[2023-12-14 00:04:25.023 +00:00] [INF] [112] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-14 00:04:25.402 +00:00] [INF] [107] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/42a5eb4347004b19908953d2121d31ee.png"
+[2023-12-14 00:04:26.544 +00:00] [INF] [117] Emby.Server.Implementations.LiveTv.LiveTvManager: Refreshing guide with 7 days of guide data
+[2023-12-14 00:04:26.550 +00:00] [INF] [117] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2023-12-14 00:04:26.562 +00:00] [INF] [117] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-14 02:02:59.578 +00:00] [WRN] [20] Jellyfin.Plugin.IMVDb.ImvdbClient: ApiKey is unset
+[2023-12-14 02:03:01.095 +00:00] [ERR] [102] MediaBrowser.Providers.Music.ArtistMetadataService: Error in "VGMdb"
+System.Text.Json.JsonException: '<' is an invalid start of a value. Path: $ | LineNumber: 1 | BytePositionInLine: 4.
+ ---> System.Text.Json.JsonReaderException: '<' is an invalid start of a value. LineNumber: 1 | BytePositionInLine: 4.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](JsonConverter jsonConverter, Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](JsonReaderState& readerState, Boolean isFinalBlock, ReadOnlySpan`1 buffer, JsonSerializerOptions options, ReadStack& state, JsonConverter converterBase)
+   at System.Text.Json.JsonSerializer.ContinueDeserialize[TValue](ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializer.ReadAllAsync[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore[T](HttpContent content, Encoding sourceEncoding, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.Vgmdb.VgmdbApi.GetSearchResultsAsync(String name, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.Vgmdb.Providers.Info.VgmdbArtistProvider.GetSearchResults(ArtistInfo searchInfo, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.Vgmdb.Providers.Info.VgmdbArtistProvider.GetIdAsync(ArtistInfo info, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.Vgmdb.Providers.Info.VgmdbArtistProvider.GetMetadata(ArtistInfo info, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.MetadataService`2.ExecuteRemoteProviders(MetadataResult`1 temp, String logName, TIdType id, IEnumerable`1 providers, CancellationToken cancellationToken)
+[2023-12-14 02:03:01.367 +00:00] [WRN] [22] Jellyfin.Plugin.IMVDb.ImvdbClient: ApiKey is unset
+[2023-12-14 02:03:01.504 +00:00] [ERR] [22] MediaBrowser.Providers.Music.ArtistMetadataService: Error in "IMVDb"
+System.Text.Json.JsonException: The JSON value could not be converted to System.Int32. Path: $.results[13].discogs_id | LineNumber: 167 | BytePositionInLine: 30.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'Null' as a number.
+   at System.Text.Json.Utf8JsonReader.TryGetInt32(Int32& value)
+   at System.Text.Json.Utf8JsonReader.GetInt32()
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](JsonConverter jsonConverter, Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](JsonReaderState& readerState, Boolean isFinalBlock, ReadOnlySpan`1 buffer, JsonSerializerOptions options, ReadStack& state, JsonConverter converterBase)
+   at System.Text.Json.JsonSerializer.ContinueDeserialize[TValue](ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializer.ReadAllAsync[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore[T](HttpContent content, Encoding sourceEncoding, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.IMVDb.ImvdbClient.GetResponseAsync[T](String url, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.IMVDb.ImvdbClient.GetSearchResponseAsync(ArtistInfo searchInfo, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.IMVDb.Providers.ImvdbArtistProvider.GetSearchResults(ArtistInfo searchInfo, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.IMVDb.Providers.ImvdbArtistProvider.GetMetadata(ArtistInfo info, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.MetadataService`2.ExecuteRemoteProviders(MetadataResult`1 temp, String logName, TIdType id, IEnumerable`1 providers, CancellationToken cancellationToken)
+[2023-12-14 02:03:01.685 +00:00] [ERR] [22] MediaBrowser.Providers.Music.ArtistMetadataService: Error in "VGMdb"
+System.Text.Json.JsonException: '<' is an invalid start of a value. Path: $ | LineNumber: 1 | BytePositionInLine: 4.
+ ---> System.Text.Json.JsonReaderException: '<' is an invalid start of a value. LineNumber: 1 | BytePositionInLine: 4.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](JsonConverter jsonConverter, Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](JsonReaderState& readerState, Boolean isFinalBlock, ReadOnlySpan`1 buffer, JsonSerializerOptions options, ReadStack& state, JsonConverter converterBase)
+   at System.Text.Json.JsonSerializer.ContinueDeserialize[TValue](ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializer.ReadAllAsync[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore[T](HttpContent content, Encoding sourceEncoding, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.Vgmdb.VgmdbApi.GetSearchResultsAsync(String name, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.Vgmdb.Providers.Info.VgmdbArtistProvider.GetSearchResults(ArtistInfo searchInfo, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.Vgmdb.Providers.Info.VgmdbArtistProvider.GetIdAsync(ArtistInfo info, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.Vgmdb.Providers.Info.VgmdbArtistProvider.GetMetadata(ArtistInfo info, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.MetadataService`2.ExecuteRemoteProviders(MetadataResult`1 temp, String logName, TIdType id, IEnumerable`1 providers, CancellationToken cancellationToken)
+[2023-12-14 02:03:03.230 +00:00] [WRN] [102] Jellyfin.Plugin.IMVDb.ImvdbClient: ApiKey is unset
+[2023-12-14 02:03:03.371 +00:00] [WRN] [102] Jellyfin.Plugin.IMVDb.ImvdbClient: ApiKey is unset
+[2023-12-14 02:03:03.552 +00:00] [ERR] [102] MediaBrowser.Providers.Music.ArtistMetadataService: Error in "VGMdb"
+System.Text.Json.JsonException: '<' is an invalid start of a value. Path: $ | LineNumber: 1 | BytePositionInLine: 4.
+ ---> System.Text.Json.JsonReaderException: '<' is an invalid start of a value. LineNumber: 1 | BytePositionInLine: 4.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](JsonConverter jsonConverter, Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](JsonReaderState& readerState, Boolean isFinalBlock, ReadOnlySpan`1 buffer, JsonSerializerOptions options, ReadStack& state, JsonConverter converterBase)
+   at System.Text.Json.JsonSerializer.ContinueDeserialize[TValue](ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializer.ReadAllAsync[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore[T](HttpContent content, Encoding sourceEncoding, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.Vgmdb.VgmdbApi.GetSearchResultsAsync(String name, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.Vgmdb.Providers.Info.VgmdbArtistProvider.GetSearchResults(ArtistInfo searchInfo, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.Vgmdb.Providers.Info.VgmdbArtistProvider.GetIdAsync(ArtistInfo info, CancellationToken cancellationToken)
+   at Jellyfin.Plugin.Vgmdb.Providers.Info.VgmdbArtistProvider.GetMetadata(ArtistInfo info, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.MetadataService`2.ExecuteRemoteProviders(MetadataResult`1 temp, String logName, TIdType id, IEnumerable`1 providers, CancellationToken cancellationToken)
+[2023-12-14 02:03:05.429 +00:00] [INF] [22] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/20859b6f932848088b6b6c77e69cbf8b.png"
+[2023-12-14 02:03:05.571 +00:00] [INF] [22] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/20859b6f932848088b6b6c77e69cbf8b.png"
+[2023-12-14 02:03:05.682 +00:00] [INF] [102] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/543d71e32f1d403db950a866f7fb25e3.png"
+[2023-12-14 02:03:05.820 +00:00] [INF] [102] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/543d71e32f1d403db950a866f7fb25e3.png"
+[2023-12-14 02:03:05.921 +00:00] [INF] [22] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/03810d4565ba49459074a28076e03813.png"
+[2023-12-14 02:03:06.170 +00:00] [INF] [22] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/03810d4565ba49459074a28076e03813.png"
+[2023-12-14 02:03:06.278 +00:00] [INF] [102] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/2f12f58d21e447099f132e72616613a6.png"
+[2023-12-14 02:03:06.400 +00:00] [INF] [102] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/2f12f58d21e447099f132e72616613a6.png"
+[2023-12-14 02:03:06.493 +00:00] [INF] [22] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/dc7db140fe584a70907954dae246fa3d.png"
+[2023-12-14 02:03:06.702 +00:00] [INF] [22] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/dc7db140fe584a70907954dae246fa3d.png"
+[2023-12-14 02:03:06.878 +00:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 118 minute(s) and 43 seconds
+[2023-12-14 02:03:06.880 +00:00] [INF] [22] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/books"
+[2023-12-14 02:03:06.885 +00:00] [INF] [108] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/music"
+[2023-12-14 02:03:06.891 +00:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-14 02:03:06.919 +00:00] [INF] [102] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/movies"
+[2023-12-14 02:03:06.923 +00:00] [INF] [112] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/pictures"
+[2023-12-14 06:00:28.928 +00:00] [INF] [315] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Scan Media Library"
+[2023-12-14 06:00:28.928 +00:00] [INF] [302] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh People"
+[2023-12-14 06:00:28.928 +00:00] [INF] [315] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2023-12-14 06:00:28.928 +00:00] [INF] [302] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PeopleValidationTask"
+[2023-12-14 06:00:28.928 +00:00] [INF] [303] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh People"
+[2023-12-14 06:00:28.928 +00:00] [INF] [305] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2023-12-14 06:00:28.929 +00:00] [INF] [305] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/pictures"
+[2023-12-14 06:00:28.929 +00:00] [INF] [305] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/books"
+[2023-12-14 06:00:28.929 +00:00] [INF] [305] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/music"
+[2023-12-14 06:00:28.929 +00:00] [INF] [305] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/movies"
+[2023-12-14 06:00:28.929 +00:00] [INF] [305] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2023-12-14 06:00:28.973 +00:00] [INF] [302] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh Guide"
+[2023-12-14 06:00:28.973 +00:00] [INF] [302] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshGuideScheduledTask"
+[2023-12-14 06:00:28.973 +00:00] [INF] [315] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh Guide"
+[2023-12-14 06:00:29.155 +00:00] [INF] [303] Emby.Server.Implementations.Library.LibraryManager: People validation complete
+[2023-12-14 06:00:29.155 +00:00] [INF] [303] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh People" Completed after 0 minute(s) and 0 seconds
+[2023-12-14 06:00:29.165 +00:00] [INF] [303] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-14 06:00:32.010 +00:00] [INF] [313] Emby.Server.Implementations.LiveTv.LiveTvManager: Refreshing guide with 7 days of guide data
+[2023-12-14 06:00:32.010 +00:00] [INF] [313] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2023-12-14 06:00:32.024 +00:00] [INF] [313] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-14 06:01:10.081 +00:00] [INF] [313] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 41 seconds
+[2023-12-14 06:01:10.083 +00:00] [INF] [307] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/books"
+[2023-12-14 06:01:10.088 +00:00] [INF] [311] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/music"
+[2023-12-14 06:01:10.095 +00:00] [INF] [313] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-14 06:01:10.121 +00:00] [INF] [308] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/movies"
+[2023-12-14 06:01:10.125 +00:00] [INF] [304] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/pictures"

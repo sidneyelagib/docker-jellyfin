@@ -1,0 +1,6 @@
+[2023-12-15 02:30:57.759 +00:00] [INF] [359] Emby.Server.Implementations.ScheduledTasks.TaskManager: "DailyTrigger" fired for task: "Extract Chapter Images"
+[2023-12-15 02:30:57.759 +00:00] [INF] [359] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "ChapterImagesTask"
+[2023-12-15 02:30:57.759 +00:00] [INF] [358] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Extract Chapter Images"
+[2023-12-15 02:30:57.817 +00:00] [INF] [358] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2023-12-15 02:30:57.828 +00:00] [INF] [358] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-12-15 02:30:58.759 +00:00] [INF] [358] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2023-12-16 02:00:00.000 +00:00, which is 23:29:01.2400381 from now.

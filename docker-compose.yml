@@ -1,0 +1,25 @@
+version: '3'
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin-server
+    volumes:
+      - /mnt/p/Movies:/media/movies
+      - /mnt/p/Music:/media/music
+      - /mnt/p/Pictures:/media/pictures
+      - /mnt/p/Documents/Learning\ \&\ Development/E-Books/:/media/books
+      - ./cache:/cache
+      - ./config:/config
+    ports:
+      - 8096:8096
+      - 8920:8920
+      - 1900:1900
+      - 7359:7359
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
